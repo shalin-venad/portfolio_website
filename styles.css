@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: rgb(0, 0, 0);
 }
@@ -42,7 +45,13 @@ h1{
 }
 .navbutton:hover{
     background-color: white;
+}
+.navlink:hover{
     color: black;
+}
+.navlink{
+    color: white;
+    text-decoration: none;
 }
 .navbar{
     padding-top: 40px;
